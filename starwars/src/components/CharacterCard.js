@@ -16,8 +16,8 @@ const CharacterCard = props => {
   return (
 
 
-    <div class='ui teal card'>
-     <h2 class="header"> {characterInfo.name} </h2>
+    <div className='ui teal card'>
+     <h2 class="Header"> {characterInfo.name} </h2>
       
       <p class="content"> Height: {characterInfo.height} </p>
       <p> Mass: {characterInfo.mass} </p>

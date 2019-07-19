@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-family: "Comic Sans MS", cursive, sans-serif;
+  color: grey;
   margin:auto;
   background-image: url('./sw-bg.jpg');
 }
@@ -14,10 +15,10 @@
 
 .card {
   margin:auto;
-  background-color: lightgrey;
+  color:goldenrod;
 }
 
-.ui.imput {
-  margin-bottom: 2px;
+.input {
+  margin-bottom: 10px;
 }
 

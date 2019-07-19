@@ -16,7 +16,9 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
-      <div class="ui focus input"><input type="text" placeholder="Search..." /></div> 
+      <div className="ui focus input">
+        <input type="text" placeholder="Find a Character..." />
+      </div> 
          <Characters count={10} />
     </div>
   );
