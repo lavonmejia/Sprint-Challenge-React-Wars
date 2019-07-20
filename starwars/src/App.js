@@ -1,5 +1,9 @@
 import React from 'react';
+import 'semantic-ui-css/semantic.min.css';
+import './index.css';
 import './App.css';
+
+import Characters from './components/Characters';
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -12,6 +16,10 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+      <div className="ui focus input">
+        <input type="text" placeholder="Find a Character..." />
+      </div> 
+         <Characters count={10} />
     </div>
   );
 }
